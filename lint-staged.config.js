@@ -8,11 +8,6 @@ module.exports = {
 		`npm run prettier --write ${filenames.join(" ")}`,
 	],
 
-	// Test TypeScript and JavaScript files
-	"**/*.(test|spec).(ts|tsx|js)": () => [
-		`npm run test --watchAll=false`,
-	],
-
 	// Format MarkDown and JSON
 	"**/*.(md|json)": (filenames) => `npm run prettier --write ${filenames.join(" ")}`,
 };
