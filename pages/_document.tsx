@@ -1,6 +1,6 @@
-import Document, { DocumentContext, DocumentInitialProps } from "next/document";
+import Document, { DocumentContext } from "next/document";
 
-class MyDocument extends Promise<DocumentInitialProps> {
+class MyDocument extends Document {
 	static async getInitialProps(ctx: DocumentContext) {
 		const initialProps = await Document.getInitialProps(ctx);
 
