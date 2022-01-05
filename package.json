@@ -6,7 +6,8 @@
     "build": "next build",
     "start": "next start",
     "test": "npm run test",
-    "lint": "next lint"
+    "lint": "next lint",
+    "lint:fix": "next lint --fix"
   },
   "dependencies": {
     "next": "^12.0.7",
