@@ -37,3 +37,11 @@ yarn-error.log*
 *.tsbuildinfo
 .history
 .vscode/settings.json
+_templates/component/new/hello.ejs.t
+_templates/generator/help/index.ejs.t
+_templates/generator/new/hello.ejs.t
+_templates/generator/with-prompt/hello.ejs.t
+_templates/generator/with-prompt/prompt.js
+_templates/hook/new/hello.ejs.t
+_templates/layout/new/hello.ejs.t
+_templates/shared/new/hello.ejs.t
